@@ -1,0 +1,39 @@
+{
+  "name": "mongo-webscrape",
+  "version": "1.0.0",
+  "description": "Web Scrap",
+  "main": "server.js",
+  "scripts": {
+    "test": "hello",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kellerb77/Mongo-WebScrape.git"
+  },
+  "keywords": [
+    "Scrape"
+  ],
+  "author": "Ben Keller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kellerb77/Mongo-WebScrape/issues"
+  },
+  "homepage": "https://github.com/Kellerb77/Mongo-WebScrape#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "bluebird": "^3.5.3",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "hbs": "^4.0.1",
+    "jquery": "^3.3.1",
+    "mongodb": "^3.1.13",
+    "mongoose": "^5.4.10",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "winston": "^3.2.1"
+  }
+}
